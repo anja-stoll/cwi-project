@@ -1,0 +1,167 @@
+/*stylesheet relative to Project 1 folder */
+
+/* Universal Page Styles */
+body {
+    background-color: #CFCFCF;
+}
+
+h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+
+p {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 17px;
+}
+
+h2:hover {
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+ul.navBar {
+    text-align: center;
+    padding-left: 0px;
+    list-style: none;
+}
+
+ul.navBar li {
+    display: inline;
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive;
+    padding: 10px;
+}
+
+ul.navBar li a:link {
+    color: black;
+    text-decoration: none;
+}
+
+ul.navBar li a:hover {
+    color: gray;
+}
+
+ul.navBar li a:visited {
+    color: white;
+}
+
+div.footer p {
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+
+#date {
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* Home Page Styles */
+img.homeModel {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+img.model:hover {
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+/* Equipment Page Styles */
+div.equipmentBody p {
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Amatic SC', cursive;
+}
+
+#equipmentBody h2 {
+	font-size: 40px;
+	padding: .25em 0 .25em 25px;
+	cursor: pointer;
+	background: url(images/plus.png) no-repeat left center;
+}
+#equipmentBody h2.minus {
+	background: url (images/minus.png) no-repeat left center;
+}
+#equipmentBody div {
+	display: none;
+}
+#equipmentBody div.open {
+	display: block;
+}
+
+/* Lessons Page Styles */
+
+div.lessonsBody {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+div.lessonsBody h2 {
+	font-size: 40px;
+}
+
+/* Tutorials Page Styles */
+div.tutorialsBody p {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Amatic SC', cursive;
+}
+
+/* Newsletter Page Styles */
+#newsletter h1 {
+	font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+#newsletter form {
+	display: block;
+	margin: 0 auto;
+	width: 600px;
+}
+
+section {
+    padding: 0 2em 1em;
+}
+label {
+	float: left;
+    width: 11em;
+    text-align: right;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 17px;
+}
+input {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 17px;
+    margin-left: 1em;
+    margin-bottom: .5em;
+}
+span {
+	color: red;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 17px;
+}
+
+/* Thank you Page Styles */
+div.thankBody p {
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Amatic SC', cursive;
+	}
+	
+div.thankBody p  span{
+    font-size: 30px;
+	padding: 0px;
+    color: black;
+	}
